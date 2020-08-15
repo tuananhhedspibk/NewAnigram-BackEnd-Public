@@ -72,3 +72,14 @@ export interface DailySendMailLogInterface extends Document {
   email: string;
   createdAt: Date;
 }
+
+export interface NotificationInterface extends Document {
+  id: string;
+  destUser: UserInterface['id'];
+  follower: UserInterface['id'];
+  post: PostInterface['id'];
+  type: number;
+  content: string;
+  read: boolean;
+  createdAt: Date;
+}
