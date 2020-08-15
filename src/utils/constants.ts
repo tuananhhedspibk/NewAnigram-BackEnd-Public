@@ -11,6 +11,15 @@ export const AWS_CONFIG_DATA = {
 export const NO_REPLY_EMAIL = '';
 export const SES_CONFIGURES = {};
 
+export const MONGODB_URL = '';
+export const FRONT_END_URL = '';
+
+export const ROUTES = {
+  HealthCheck: '/healthcheck',
+  GraphQL: '/graphql',
+  Subscriptions: '/subscriptions',
+};
+
 export const DEFAULT_AVATAR_URL = '';
 
 export const SALT_ROUNDS = 10; // For hash user password algorithm
