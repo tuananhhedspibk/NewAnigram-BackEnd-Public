@@ -7,7 +7,8 @@
     "start:dev": "npm run build && gulp start",
     "start": "node dist-server/app.js",
     "clean": "rimraf dist-server",
-    "build": "npm run clean && tsc"
+    "build": "npm run clean && tsc",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -38,11 +39,15 @@
     "@types/bcrypt": "^3.0.0",
     "@types/cookie-parser": "^1.4.2",
     "@types/express": "^4.17.7",
+    "@types/jest": "^26.0.10",
     "@types/jsonwebtoken": "^8.5.0",
     "@types/mongoose": "^5.7.36",
     "@types/morgan": "^1.9.1",
     "@types/node-cron": "^2.0.3",
+    "apollo-server-testing": "^2.16.1",
     "gulp": "^4.0.2",
-    "gulp-typescript": "^6.0.0-alpha.1"
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "jest": "^26.4.0",
+    "ts-jest": "^26.2.0"
   }
 }
