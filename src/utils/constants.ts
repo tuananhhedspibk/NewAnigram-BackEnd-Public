@@ -1,6 +1,15 @@
 import { PubSub } from 'graphql-subscriptions';
 
-export const DEFAULT_AVATAR_URL = 'https://images.newanigram.net/defaults/ava.png';
+export const AWS_CONFIG_DATA = {
+  accessKeyId: '********************',
+  secretAccessKey: '****************************************',
+  region: '**-*********-*',
+};
+
+export const IMAGES_SERVER_URL = '';
+export const S3_BUCKET_NAME = '';
+
+export const DEFAULT_AVATAR_URL = '';
 
 export const SALT_ROUNDS = 10; // For hash user password algorithm
 
