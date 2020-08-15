@@ -83,3 +83,11 @@ export interface NotificationInterface extends Document {
   read: boolean;
   createdAt: Date;
 }
+
+export interface SuggestFriendInterface extends Document {
+  id: string;
+  owner: UserInterface['id'];
+  users: UserInterface['id'][];
+  createdAt: Date;
+  updatedAt: Date;
+}
