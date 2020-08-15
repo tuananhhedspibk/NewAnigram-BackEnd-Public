@@ -84,6 +84,15 @@ export interface NotificationInterface extends Document {
   createdAt: Date;
 }
 
+export interface SuggestFriendDataInterface extends Document {
+  id: string;
+  avatarURL: string;
+  userName: string;
+  following: number;
+  followers: number;
+  posts: number;
+}
+
 export interface SuggestFriendInterface extends Document {
   id: string;
   owner: UserInterface['id'];
