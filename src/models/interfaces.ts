@@ -57,3 +57,18 @@ export interface LikeInterface extends Document {
   post: PostInterface['id'];
   createdAt: Date;
 }
+
+export interface ActiveAccountKeyInterface extends Document {
+  id: string;
+  user: UserInterface['id'];
+  rawValue: string;
+  expiredAt: Date;
+  createdAt: Date;
+  updatedAt: Date;
+}
+
+export interface DailySendMailLogInterface extends Document {
+  id: string;
+  email: string;
+  createdAt: Date;
+}
