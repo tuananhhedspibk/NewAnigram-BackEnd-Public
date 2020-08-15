@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "tsc": "tsc"
+    "start:dev": "npm run build && gulp start",
+    "start": "node dist-server/app.js",
+    "clean": "rimraf dist-server",
+    "build": "npm run clean && tsc"
   },
   "repository": {
     "type": "git",
@@ -39,6 +41,8 @@
     "@types/jsonwebtoken": "^8.5.0",
     "@types/mongoose": "^5.7.36",
     "@types/morgan": "^1.9.1",
-    "@types/node-cron": "^2.0.3"
+    "@types/node-cron": "^2.0.3",
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^6.0.0-alpha.1"
   }
 }
