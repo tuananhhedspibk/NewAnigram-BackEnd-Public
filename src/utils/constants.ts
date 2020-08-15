@@ -44,6 +44,10 @@ export const SUCCESS_MESSAGES = {
     AlreadyFollow: 'Already has followed this user',
     FollowUserSuccess: 'Follow user successfully',
   },
+  Notification: {
+    MarkAsReadSuccess: 'Mark as read successfully',
+    BatchMarkAsReadSuccess: 'Batch mark as read successfully',
+  },
   Post: {
     CreatePostSuccess: 'Create post successfully',
     DeletePostSuccess: 'Delete post successfully',
@@ -92,6 +96,9 @@ export const ERROR_MESSAGES = {
     AlreadyFollow: 'Already has followed this user',
     FollowUserFailed: 'Follow user failed',
     IsFollowingUser: 'Check follow relationship failed',
+  },
+  Notification: {
+    MarkAsReadFailed: 'Mark as read failed',
   },
   Post: {
     AlreadyLikedPost: 'You have already liked this post',
