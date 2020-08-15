@@ -50,3 +50,10 @@ export interface CommentInterface extends Document {
   createdAt: Date;
   updatedAt: Date;
 }
+
+export interface LikeInterface extends Document {
+  id: string;
+  user: UserInterface['id'];
+  post: PostInterface['id'];
+  createdAt: Date;
+}
