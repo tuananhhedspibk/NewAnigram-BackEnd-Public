@@ -59,6 +59,6 @@ Server will run at address: [localhost:3000](#)
 
 **4. Run Unit Test**
 
-> npm run test
+> $npm run test
 
 Made with :hearts: ・ :tea: ・ :rice:
