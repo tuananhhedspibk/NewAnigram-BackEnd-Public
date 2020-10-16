@@ -30,7 +30,7 @@ Backend repository for website [newanigram.net](https://newanigram.net). This is
 Firstly, you need to complete your AWS credentials in these two files
 
 - [src/utils/constants.ts](https://github.com/tuananhhedspibk/NewAnigram-BackEnd-Public/blob/master/src/utils/constants.ts#L6) (for developing)
-- [.github/workflows/aws.yml](https://github.com/tuananhhedspibk/NewAnigram-BackEnd-Public/blob/master/src/utils/constants.ts#L6) (for deploying service to ECS - in here, you need to fill in the ECS, ECR related information)
+- [.github/workflows/aws.yml](https://github.com/tuananhhedspibk/NewAnigram-BackEnd-Public/blob/master/.github/workflows/aws.yml) (for deploying service to ECS - in here, you need to fill in the ECS, ECR related information)
 
 **2. Install packages**
 
@@ -61,4 +61,4 @@ Server will run at address: [localhost:3000](#)
 
 > npm run test
 
-<p style="text-align: center; margin-top: 35px;">Made with :hearts: and :tea: and :rice:</p>
+Made with :hearts: ・ :tea: ・ :rice:
