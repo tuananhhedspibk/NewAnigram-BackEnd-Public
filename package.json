@@ -30,7 +30,7 @@
     "graphql": "^15.3.0",
     "graphql-subscriptions": "^1.1.0",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.9.29",
+    "mongoose": "^5.13.15",
     "morgan": "^1.10.0",
     "node-cron": "^2.0.3",
     "typescript": "^3.9.7"
